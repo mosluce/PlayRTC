@@ -1,0 +1,28 @@
+PODS:
+  - SinchRTC (3.9.6)
+  - SVProgressHUD (2.0.3)
+  - TYPFontAwesome (4.1.0):
+    - TYPFontAwesome/EOT (= 4.1.0)
+    - TYPFontAwesome/OTF (= 4.1.0)
+    - TYPFontAwesome/SVG (= 4.1.0)
+    - TYPFontAwesome/TTF (= 4.1.0)
+    - TYPFontAwesome/WOFF (= 4.1.0)
+  - TYPFontAwesome/EOT (4.1.0)
+  - TYPFontAwesome/OTF (4.1.0)
+  - TYPFontAwesome/SVG (4.1.0)
+  - TYPFontAwesome/TTF (4.1.0)
+  - TYPFontAwesome/WOFF (4.1.0)
+
+DEPENDENCIES:
+  - SinchRTC
+  - SVProgressHUD
+  - TYPFontAwesome
+
+SPEC CHECKSUMS:
+  SinchRTC: b8a2f2cef9d2dcf28c7d650a0954d79fe6076278
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  TYPFontAwesome: 0d0766d5d412f23e3421149c1235693efcdf55f7
+
+PODFILE CHECKSUM: b9a13c0750dc49c712f6aee11bb8e089f7ce1756
+
+COCOAPODS: 1.0.1

@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4478A4571D8257DA00C8A9D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478A4561D8257DA00C8A9D9 /* AppDelegate.swift */; };
+		4478A4591D8257DA00C8A9D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4478A4581D8257DA00C8A9D9 /* ViewController.swift */; };
+		4478A45C1D8257DA00C8A9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4478A45A1D8257DA00C8A9D9 /* Main.storyboard */; };
+		4478A45E1D8257DA00C8A9D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4478A45D1D8257DA00C8A9D9 /* Assets.xcassets */; };
+		4478A4611D8257DA00C8A9D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4478A45F1D8257DA00C8A9D9 /* LaunchScreen.storyboard */; };
+		44E3A1FA1D86753A00F044EB /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3A1F91D86753A00F044EB /* Env.swift */; };
+		44E3A1FD1D867E0A00F044EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3A1FC1D867E0A00F044EB /* ListViewController.swift */; };
+		9CD130642E573B8A8245FF11 /* Pods_PlayRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDA0157B0D484287D11B592 /* Pods_PlayRTC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4478A4531D8257DA00C8A9D9 /* PlayRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4478A4561D8257DA00C8A9D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4478A4581D8257DA00C8A9D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4478A45B1D8257DA00C8A9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4478A45D1D8257DA00C8A9D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4478A4601D8257DA00C8A9D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4478A4621D8257DA00C8A9D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A73B9B1D82607B00202CD2 /* PlayRTC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayRTC-Bridging-Header.h"; sourceTree = "<group>"; };
+		44E3A1F91D86753A00F044EB /* Env.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		44E3A1FB1D867B4100F044EB /* PlayRTC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayRTC.entitlements; sourceTree = "<group>"; };
+		44E3A1FC1D867E0A00F044EB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8DB4CC7525C59451D1ACE51A /* Pods-PlayRTC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayRTC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayRTC/Pods-PlayRTC.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDA0157B0D484287D11B592 /* Pods_PlayRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23DF26C984A5F07A1897154 /* Pods-PlayRTC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayRTC.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayRTC/Pods-PlayRTC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4478A4501D8257DA00C8A9D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD130642E573B8A8245FF11 /* Pods_PlayRTC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4478A44A1D8257DA00C8A9D9 = {
+			isa = PBXGroup;
+			children = (
+				4478A4551D8257DA00C8A9D9 /* PlayRTC */,
+				4478A4541D8257DA00C8A9D9 /* Products */,
+				C7FF888801D197697A92CFB2 /* Pods */,
+				DD1C1F475E0BB98A33B48E5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4478A4541D8257DA00C8A9D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4478A4531D8257DA00C8A9D9 /* PlayRTC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4478A4551D8257DA00C8A9D9 /* PlayRTC */ = {
+			isa = PBXGroup;
+			children = (
+				44E3A1FB1D867B4100F044EB /* PlayRTC.entitlements */,
+				44E3A1F91D86753A00F044EB /* Env.swift */,
+				4478A4561D8257DA00C8A9D9 /* AppDelegate.swift */,
+				4478A4581D8257DA00C8A9D9 /* ViewController.swift */,
+				44E3A1FC1D867E0A00F044EB /* ListViewController.swift */,
+				44A73B9B1D82607B00202CD2 /* PlayRTC-Bridging-Header.h */,
+				4478A45A1D8257DA00C8A9D9 /* Main.storyboard */,
+				4478A45F1D8257DA00C8A9D9 /* LaunchScreen.storyboard */,
+				4478A45D1D8257DA00C8A9D9 /* Assets.xcassets */,
+				4478A4621D8257DA00C8A9D9 /* Info.plist */,
+			);
+			path = PlayRTC;
+			sourceTree = "<group>";
+		};
+		C7FF888801D197697A92CFB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DB4CC7525C59451D1ACE51A /* Pods-PlayRTC.debug.xcconfig */,
+				D23DF26C984A5F07A1897154 /* Pods-PlayRTC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD1C1F475E0BB98A33B48E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA0157B0D484287D11B592 /* Pods_PlayRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4478A4521D8257DA00C8A9D9 /* PlayRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4478A4651D8257DA00C8A9D9 /* Build configuration list for PBXNativeTarget "PlayRTC" */;
+			buildPhases = (
+				A08153CC14EFEEFAD4D6CFD4 /* [CP] Check Pods Manifest.lock */,
+				4478A44F1D8257DA00C8A9D9 /* Sources */,
+				4478A4501D8257DA00C8A9D9 /* Frameworks */,
+				4478A4511D8257DA00C8A9D9 /* Resources */,
+				009E10C74A3228F792B71105 /* [CP] Embed Pods Frameworks */,
+				8F9EF14F6465BD4581A060A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayRTC;
+			productName = PlayRTC;
+			productReference = 4478A4531D8257DA00C8A9D9 /* PlayRTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4478A44B1D8257DA00C8A9D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "默司";
+				TargetAttributes = {
+					4478A4521D8257DA00C8A9D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8E5H4JDK8B;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4478A44E1D8257DA00C8A9D9 /* Build configuration list for PBXProject "PlayRTC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4478A44A1D8257DA00C8A9D9;
+			productRefGroup = 4478A4541D8257DA00C8A9D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4478A4521D8257DA00C8A9D9 /* PlayRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4478A4511D8257DA00C8A9D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4478A4611D8257DA00C8A9D9 /* LaunchScreen.storyboard in Resources */,
+				4478A45E1D8257DA00C8A9D9 /* Assets.xcassets in Resources */,
+				4478A45C1D8257DA00C8A9D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009E10C74A3228F792B71105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayRTC/Pods-PlayRTC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9EF14F6465BD4581A060A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayRTC/Pods-PlayRTC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08153CC14EFEEFAD4D6CFD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4478A44F1D8257DA00C8A9D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E3A1FA1D86753A00F044EB /* Env.swift in Sources */,
+				4478A4591D8257DA00C8A9D9 /* ViewController.swift in Sources */,
+				44E3A1FD1D867E0A00F044EB /* ListViewController.swift in Sources */,
+				4478A4571D8257DA00C8A9D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4478A45A1D8257DA00C8A9D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4478A45B1D8257DA00C8A9D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4478A45F1D8257DA00C8A9D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4478A4601D8257DA00C8A9D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4478A4631D8257DA00C8A9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4478A4641D8257DA00C8A9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4478A4661D8257DA00C8A9D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB4CC7525C59451D1ACE51A /* Pods-PlayRTC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PlayRTC/PlayRTC.entitlements;
+				DEVELOPMENT_TEAM = 8E5H4JDK8B;
+				INFOPLIST_FILE = PlayRTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.app.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayRTC/PlayRTC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		4478A4671D8257DA00C8A9D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23DF26C984A5F07A1897154 /* Pods-PlayRTC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PlayRTC/PlayRTC.entitlements;
+				DEVELOPMENT_TEAM = 8E5H4JDK8B;
+				INFOPLIST_FILE = PlayRTC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotyou.app.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PlayRTC/PlayRTC-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4478A44E1D8257DA00C8A9D9 /* Build configuration list for PBXProject "PlayRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4478A4631D8257DA00C8A9D9 /* Debug */,
+				4478A4641D8257DA00C8A9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4478A4651D8257DA00C8A9D9 /* Build configuration list for PBXNativeTarget "PlayRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4478A4661D8257DA00C8A9D9 /* Debug */,
+				4478A4671D8257DA00C8A9D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4478A44B1D8257DA00C8A9D9 /* Project object */;
+}
